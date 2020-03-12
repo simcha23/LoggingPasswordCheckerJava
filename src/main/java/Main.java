@@ -1,7 +1,6 @@
-import org.apache.logging.log4j.*;
-
-
-import javax.swing.*;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import javax.swing.JOptionPane;
 
 public class Main {
     private static Logger logger = LogManager.getLogger(Main.class);
@@ -43,25 +42,4 @@ public class Main {
         }
 
     }
-//    public static void file(ArrayList<String> errors){
-//        try{
-//            File file = new File("errors.log");
-//
-//            if(file.getName() != "errors.log"){
-//                file.createNewFile();
-//            }
-//            else {
-//                FileWriter myWriter = new FileWriter("errors.log",true);
-//                for (String error:errors) {
-//                    myWriter.write(error + "\n");
-//                }
-//                myWriter.close();
-//                System.out.println("Successfully wrote to the file.");
-//
-//            }
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }

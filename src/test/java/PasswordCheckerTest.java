@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class PasswordCheckerTest {
 
